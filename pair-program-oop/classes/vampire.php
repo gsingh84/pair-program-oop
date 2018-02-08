@@ -13,6 +13,6 @@ class Vampire extends Monster
     function attack()
     {
         $this->_victim++;
-        echo parent::getName()." is attacking ".$this->_victim.'<br>';
+        echo parent::getName()." is attacking victim ".$this->_victim.'<br>';
     }
 }

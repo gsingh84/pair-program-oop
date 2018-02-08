@@ -2,25 +2,25 @@
 
 class Monster
 {
-    private $_name;
+    protected $name;
 
     function __construct($name = "monster")
     {
-        $this->_name = $name;
+        $this->name = $name;
     }
 
     function setName($name)
     {
-        $this->_name = $name;
+        $this->name = $name;
     }
 
     function getName()
     {
-        return $this->_name;
+        return $this->name;
     }
 
     function attack()
     {
-        echo $this->_name ."is attacking";
+        echo $this->name ."is attacking";
     }
 }

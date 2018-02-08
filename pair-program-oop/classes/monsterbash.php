@@ -1,8 +1,8 @@
 <?php
 
-include('monster.php');
+include ('monster.php');
+include ('vampire.php');
 
-
-    $bash = new Monster("vampire");
-
-echo $bash->getName();
+$bash = new Vampire("Vampire");
+$bash->attack();
+$bash->attack();
